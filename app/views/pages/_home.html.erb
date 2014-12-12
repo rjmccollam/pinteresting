@@ -1,16 +1,10 @@
 <div class="jumbotron center">
 
-	<h1>Welcome to my app!</h1>
+	<h1>Hey Look I Built Pinterest</h1>
 
-	<% if user_signed_in? %>
+	<p>You gotta start somewhere when learning a new skill, and I started with a pinterest clone for my first real Ruby on Rails app. Play around, and if you find something that is off let me know and I will try and fix it.</p>
 
-		<p>You're logged in!</p>
-
-	<% else %>
-
-		<%= link_to 'Log In', new_user_session_path, class: 'btn btn-default btn-lg' %>
-		<%= link_to 'Sign Up', new_user_registration_path, class: 'btn btn-primary btn-lg' %>
-
-	<% end %>
+	<%= link_to 'Log In', new_user_session_path, class: 'btn btn-default btn-lg' %>
+	<%= link_to 'Sign Up', new_user_registration_path, class: 'btn btn-primary btn-lg' %>
 
 </div>

@@ -11,6 +11,14 @@ $jumbotron-bg: white;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+body {padding-top: 70px;}
+
 .center {text-align: center;}
 
 .navbar-brand {font-weight: bold;}
+
+.footer {background: #333; color: #fff; margin: 30px 0 0; padding: 15px 0 5px;
+	a {color: #fff; text-decoration: underline;
+		&:hover {text-decoration: none;}
+	}
+}
